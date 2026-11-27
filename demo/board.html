@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='5' fill='%23ff765b'/%3E%3Cpath fill='%23191b1c' d='M5 5h7v7H5zm7 7h7v7h-7zm7-7h6v7h-6zM5 19h7v6H5zm14 0h6v6h-6z'/%3E%3C/svg%3E"
+    />
+    <title>London v9 · AI Chessathon</title>
+    <link rel="stylesheet" href="/board.css" />
+  </head>
+  <body>
+    <svg
+      class="piece-defs"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <defs>
+        <g id="base">
+          <path d="M11 37 Q24 34 37 37 L39 41 Q24 43 9 41Z" />
+          <path d="M13 36h22" fill="none" />
+        </g>
+        <g id="pawn">
+          <path d="M16 35C20 30 21 23 20 21a7 7 0 1 1 8 0c-1 2 0 9 4 14Z" />
+          <use href="#base" />
+        </g>
+        <g id="rook">
+          <path d="M10 8h7v5h4V8h6v5h4V8h7v11l-5 4 1 11 3 3H11l3-3 1-11-5-4Z" />
+          <path d="M14 19h20m-18 5h16" fill="none" stroke="var(--detail)" />
+          <use href="#base" />
+        </g>
+        <g id="knight">
+          <path
+            d="M12 36c2-7 7-9 11-15l-8 4-6-3 6-11 6-4 1-5 5 4 4-2 1 5c8 6 9 17 5 28Z"
+          />
+          <path
+            d="m16 15 3-1m5 17c7-6 9-13 5-18"
+            fill="none"
+            stroke="var(--detail)"
+          />
+          <use href="#base" />
+        </g>
+        <g id="bishop">
+          <path
+            d="M13 36c3-3 6-6 7-10-8-5-6-10 2-18l2-4 2 4c8 8 11 13 2 18 1 4 4 7 7 10Z"
+          />
+          <path d="m23 10 5 8m-10 9h12" stroke="var(--detail)" fill="none" />
+          <use href="#base" />
+        </g>
+        <g id="queen">
+          <path
+            d="m8 14 7 7 1-12 7 11 2-15 5 15 5-11-1 13 7-8-6 19 2 4H11l2-4Z"
+          />
+          <g>
+            <circle cx="8" cy="13" r="2" />
+            <circle cx="16" cy="8" r="2" />
+            <circle cx="25" cy="5" r="2" />
+            <circle cx="35" cy="8" r="2" />
+            <circle cx="41" cy="13" r="2" />
+          </g>
+          <path d="M14 30q10-3 20 0" fill="none" stroke="var(--detail)" />
+          <use href="#base" />
+        </g>
+        <g id="king">
+          <path d="M22 3h4v4h4v3h-4v5h-4v-5h-4V7h4Z" />
+          <path
+            d="M14 35c3-5 1-9-3-13-6-8 3-13 10-7l3 4 3-4c8-6 16 0 10 7-4 4-6 8-3 13Z"
+          />
+          <path
+            d="M15 29q9-4 18 0m-9-10v7"
+            stroke="var(--detail)"
+            fill="none"
+          />
+          <use href="#base" />
+        </g>
+      </defs>
+    </svg>
+    <main class="wrap">
+      <div class="headline">
+        <div class="wordmark"><span class="brand-name">AI Chessathon</span><h1>London v9</h1></div>
+        <div class="headline-actions">
+          <button class="action" id="recorded" disabled>Recorded game</button>
+          <button class="action" id="play" disabled>Play v9</button>
+          <button class="action primary" id="setup" disabled>New match</button>
+        </div>
+      </div>
+      <div class="connection">
+        <span class="error" id="error" role="alert"></span>
+        <button class="action" id="retry" hidden>Retry</button>
+      </div>
+      <section class="match-bar" aria-labelledby="match-heading">
+        <div>
+          <h2 id="match-heading">Match</h2>
+          <p class="small" id="match-result" hidden></p>
+        </div>
+        <dl>
+          <div>
+            <dt>Opening</dt>
+            <dd id="match-opening">—</dd>
+          </div>
+          <div>
+            <dt>Clock</dt>
+            <dd id="match-clock">—</dd>
+          </div>
+          <div>
+            <dt>Opponent</dt>
+            <dd id="match-opponent">—</dd>
+          </div>
+        </dl>
+      </section>
+      <div class="layout">
+        <section class="stage" aria-label="Game board">
+          <div class="player top" id="top"></div>
+          <div class="position">
+            <div
+              class="rail"
+              id="rail"
+              role="img"
+              aria-label="Awaiting evaluation"
+            >
+              <span class="fill" id="fill"></span>
+              <span class="rail-label top" id="rail-top" aria-hidden="true"
+                >B</span>
+              <span
+                class="rail-label bottom"
+                id="rail-bottom"
+                aria-hidden="true"
+                >W</span>
+            </div>
+            <div
+              class="board"
+              id="board"
+              role="group"
+              aria-label="Chessboard. Use arrow keys to navigate and Enter to select."
+            ></div>
+          </div>
+          <div class="player bottom" id="bottom"></div>
+          <div class="transport">
+            <button class="action primary" id="run" disabled>Run match</button>
+            <button class="action" id="step" disabled>Step</button>
+            <div class="replay-controls" id="replay-controls" hidden>
+              <button class="action" id="previous" aria-label="Previous move">
+                ‹
+              </button>
+              <button class="action" id="next" aria-label="Next move">›</button>
+              <button class="action primary" id="live">Back to live</button>
+            </div>
+            <span id="status" role="status" class="status"
+              >Loading position…</span
+            >
+            <button class="action" id="clear-premove" hidden>
+              Cancel premove
+            </button>
+          </div>
+        </section>
+        <aside class="aside">
+          <section class="pane" id="series-pane" hidden>
+            <div class="pane-head">
+              <h2>Series</h2>
+              <strong id="game"></strong>
+            </div>
+            <p id="record" hidden></p>
+            <p class="small" id="series-progress" hidden></p>
+            <div
+              class="series-grid"
+              id="series-jobs"
+              aria-label="Series games"
+              hidden
+            ></div>
+          </section>
+          <section class="pane">
+            <div class="pane-head">
+              <h2>Engine analysis</h2>
+              <strong id="analysis-move"></strong>
+            </div>
+            <p class="context" id="source"></p>
+            <div class="score-label">
+              <span>White evaluation</span
+              ><strong id="score">Awaiting search</strong>
+            </div>
+            <dl class="stats">
+              <div>
+                <dt>Depth</dt>
+                <dd id="depth">—</dd>
+              </div>
+              <div>
+                <dt>Nodes</dt>
+                <dd id="nodes">—</dd>
+              </div>
+              <div>
+                <dt>Search time</dt>
+                <dd id="elapsed">—</dd>
+              </div>
+            </dl>
+            <p id="search-change" class="small move-review" hidden></p>
+            <h3 id="depth-title">Completed depths</h3>
+            <p id="empty" class="small"></p>
+            <div
+              class="trace"
+              id="trace"
+              hidden
+              tabindex="0"
+              aria-label="Completed search depths"
+            >
+              <table>
+                <thead>
+                  <tr>
+                    <th>Depth</th>
+                    <th>Move</th>
+                    <th>White score</th>
+                    <th>Total nodes</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody id="iterations"></tbody>
+              </table>
+            </div>
+            <details class="info" id="opposing" hidden>
+              <summary>Stockfish search</summary>
+              <p class="small" id="opposing-summary"></p>
+              <p class="small" id="pv"></p>
+            </details>
+            <details class="info">
+              <summary>Reading the search</summary>
+              <p class="small">
+                Each row shows a completed search pass, deepest first. Positive
+                scores favor White. Scores use pawn units. M followed by a
+                number gives the distance to a forced mate in moves. The bar
+                shows the score in the current view.
+              </p>
+              <p class="small" id="evaluator"></p>
+            </details>
+          </section>
+          <section class="pane">
+            <h2 id="moves-title">Move history</h2>
+            <div
+              id="notation"
+              class="notation small"
+              role="group"
+              aria-labelledby="moves-title"
+            >
+              No moves played.
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <dialog id="config" aria-labelledby="config-title">
+      <form id="form">
+        <div class="dialog-head">
+          <h2 id="config-title">New match</h2>
+          <button type="button" id="close" aria-label="Close match setup">
+            ×
+          </button>
+        </div>
+        <div class="fields">
+          <fieldset id="group-opponent">
+            <legend>Opponent</legend>
+            <div class="options">
+              <label><input type="radio" name="opponent" value="stockfish" /><span>Stockfish</span></label>
+              <label><input type="radio" name="opponent" value="human" /><span>Human</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="group-color">
+            <legend id="color-label">Agent starts as</legend>
+            <div class="options">
+              <label><input type="radio" name="color" value="white" /><span>White</span></label>
+              <label><input type="radio" name="color" value="black" /><span>Black</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="group-clock">
+            <legend>Time per side</legend>
+            <div class="options">
+              <label><input type="radio" name="clock" value="competition" /><span>120 s + 0.5 s</span></label>
+              <label><input type="radio" name="clock" value="quick" /><span>5 s + 0.05 s</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="group-opening">
+            <legend>Starting position</legend>
+            <div class="options">
+              <label><input type="radio" name="opening" value="curated" /><span>Tournament</span></label>
+              <label><input type="radio" name="opening" value="start" /><span>Initial</span></label>
+              <label><input type="radio" name="opening" value="tactics" /><span>Tactical</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="group-games">
+            <legend>Games</legend>
+            <div class="options">
+              <label><input type="radio" name="games" value="1" /><span>1</span></label>
+              <label><input type="radio" name="games" value="2" /><span>2</span></label>
+              <label><input type="radio" name="games" value="4" /><span>4</span></label>
+              <label><input type="radio" name="games" value="8" /><span>8</span></label>
+            </div>
+          </fieldset>
+          <details id="advanced">
+            <summary>Stockfish settings</summary>
+            <fieldset id="group-nodes">
+              <legend>Stockfish budget</legend>
+              <div class="options">
+                <label><input type="radio" name="nodes" value="0" /><span>Game clock</span></label>
+                <label><input type="radio" name="nodes" value="8000" /><span>8k nodes</span></label>
+                <label><input type="radio" name="nodes" value="32000" /><span>32k nodes</span></label>
+                <label><input type="radio" name="nodes" value="128000" /><span>128k nodes</span></label>
+              </div>
+            </fieldset>
+            <fieldset id="group-strength">
+              <legend>Stockfish skill</legend>
+              <div class="options">
+                <label><input type="radio" name="strength" value="0" /><span>0</span></label>
+                <label><input type="radio" name="strength" value="5" /><span>5</span></label>
+                <label><input type="radio" name="strength" value="10" /><span>10</span></label>
+                <label><input type="radio" name="strength" value="20" /><span>20</span></label>
+              </div>
+            </fieldset>
+          </details>
+        </div>
+        <p class="small" id="setup-note"></p>
+        <div class="dialog-actions">
+          <button type="button" class="action" id="cancel">Cancel</button>
+          <button class="action primary" id="start-game">Start game</button>
+        </div>
+      </form>
+    </dialog>
+    <dialog id="promotion" aria-labelledby="promo-title">
+      <form method="dialog">
+        <h2 id="promo-title">Promote pawn</h2>
+        <div class="choices">
+          <button class="action" value="q">Queen</button>
+          <button class="action" value="r">Rook</button
+          ><button class="action" value="b">Bishop</button
+          ><button class="action" value="n">Knight</button
+          ><button class="action" value="">Cancel</button>
+        </div>
+      </form>
+    </dialog>
+    <script src="/board.js"></script>
+  </body>
+</html>

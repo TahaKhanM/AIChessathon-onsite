@@ -1,0 +1,384 @@
+{
+  "opening_name": "Sicilian Closed",
+  "players": {
+    "black": "Agent v9",
+    "white": "Stockfish"
+  },
+  "result": "0-1 \u00b7 Checkmate",
+  "settings": {
+    "opponent": "stockfish",
+    "color": "black",
+    "clock": "competition",
+    "opening": "curated",
+    "games": 1,
+    "strength": 20,
+    "nodes": 8000
+  },
+  "stockfish": "Stockfish 18",
+  "clock_control": {
+    "base_ms": 120000,
+    "increment_ms": 500
+  },
+  "weights_sha256": "6573ac452b30d517ce29b624571be4bb85d51136a2183fef2999514d7c7bd43f",
+  "featured_ply": 3,
+  "moves": [
+    {
+      "number": 7,
+      "white": null,
+      "black": "b6"
+    },
+    {
+      "number": 8,
+      "white": "Nge2",
+      "black": "O-O"
+    },
+    {
+      "number": 9,
+      "white": "e5",
+      "black": "Nxe5"
+    },
+    {
+      "number": 10,
+      "white": "Bxa8",
+      "black": "Bh3"
+    },
+    {
+      "number": 11,
+      "white": "Bc6",
+      "black": "Qd7"
+    },
+    {
+      "number": 12,
+      "white": "Nd4",
+      "black": "Nxc6"
+    },
+    {
+      "number": 13,
+      "white": "Nxc6",
+      "black": "Qxc6"
+    },
+    {
+      "number": 14,
+      "white": "f3",
+      "black": "Ng4"
+    },
+    {
+      "number": 15,
+      "white": "Qe2",
+      "black": "Nxe3"
+    },
+    {
+      "number": 16,
+      "white": "Qxe3",
+      "black": "Bg2"
+    },
+    {
+      "number": 17,
+      "white": "Rf1",
+      "black": "Bxf1"
+    },
+    {
+      "number": 18,
+      "white": "Kxf1",
+      "black": "Qd7"
+    },
+    {
+      "number": 19,
+      "white": "Kg2",
+      "black": "d5"
+    },
+    {
+      "number": 20,
+      "white": "Qf4",
+      "black": "h6"
+    },
+    {
+      "number": 21,
+      "white": "h4",
+      "black": "a6"
+    },
+    {
+      "number": 22,
+      "white": "h5",
+      "black": "g5"
+    },
+    {
+      "number": 23,
+      "white": "Qd2",
+      "black": "e6"
+    },
+    {
+      "number": 24,
+      "white": "Nd1",
+      "black": "Qc6"
+    },
+    {
+      "number": 25,
+      "white": "c3",
+      "black": "Rb8"
+    },
+    {
+      "number": 26,
+      "white": "Nf2",
+      "black": "a5"
+    },
+    {
+      "number": 27,
+      "white": "Ng4",
+      "black": "b5"
+    },
+    {
+      "number": 28,
+      "white": "axb5",
+      "black": "Qxb5"
+    },
+    {
+      "number": 29,
+      "white": "Ra2",
+      "black": "Qb3"
+    },
+    {
+      "number": 30,
+      "white": "Rxa5",
+      "black": "Qxb2"
+    },
+    {
+      "number": 31,
+      "white": "Qxb2",
+      "black": "Rxb2+"
+    },
+    {
+      "number": 32,
+      "white": "Kf1",
+      "black": "f5"
+    },
+    {
+      "number": 33,
+      "white": "Ra8+",
+      "black": "Kh7"
+    },
+    {
+      "number": 34,
+      "white": "Ne3",
+      "black": "d4"
+    },
+    {
+      "number": 35,
+      "white": "cxd4",
+      "black": "Bxd4"
+    },
+    {
+      "number": 36,
+      "white": "Nc4",
+      "black": "Rf2+"
+    },
+    {
+      "number": 37,
+      "white": "Ke1",
+      "black": "Rxf3"
+    },
+    {
+      "number": 38,
+      "white": "Nd6",
+      "black": "Rxg3"
+    },
+    {
+      "number": 39,
+      "white": "Ra7+",
+      "black": "Kg8"
+    },
+    {
+      "number": 40,
+      "white": "Re7",
+      "black": "Re3+"
+    },
+    {
+      "number": 41,
+      "white": "Kf1",
+      "black": "g4"
+    },
+    {
+      "number": 42,
+      "white": "Rd7",
+      "black": "Rf3+"
+    },
+    {
+      "number": 43,
+      "white": "Ke2",
+      "black": "Rf2+"
+    },
+    {
+      "number": 44,
+      "white": "Kd1",
+      "black": "g3"
+    },
+    {
+      "number": 45,
+      "white": "Rd8+",
+      "black": "Kg7"
+    },
+    {
+      "number": 46,
+      "white": "Ne8+",
+      "black": "Kh7"
+    },
+    {
+      "number": 47,
+      "white": "Rxd4",
+      "black": "cxd4"
+    },
+    {
+      "number": 48,
+      "white": "Ke1",
+      "black": "Ra2"
+    },
+    {
+      "number": 49,
+      "white": "Kf1",
+      "black": "f4"
+    },
+    {
+      "number": 50,
+      "white": "Nf6+",
+      "black": "Kg7"
+    },
+    {
+      "number": 51,
+      "white": "Ne4",
+      "black": "g2+"
+    },
+    {
+      "number": 52,
+      "white": "Kg1",
+      "black": "f3"
+    },
+    {
+      "number": 53,
+      "white": "Ng3",
+      "black": "Ra1+"
+    },
+    {
+      "number": 54,
+      "white": "Kf2",
+      "black": "g1=Q+"
+    },
+    {
+      "number": 55,
+      "white": "Kxf3",
+      "black": "Qe3+"
+    },
+    {
+      "number": 56,
+      "white": "Kg4",
+      "black": "Rg1"
+    },
+    {
+      "number": 57,
+      "white": "Kh4",
+      "black": "Qxg3#"
+    }
+  ],
+  "replay": [
+    {"fen":"r1bqk2r/pp2ppbp/2np1np1/2p5/P3P3/2NPB1P1/1PP2PBP/R2QK1NR b KQkq - 0 7","number":7,"side":"black","uci":"b7b6","san":"b6","clocks":{"white":120000,"black":120000},"search":{"iterations":[[1,34,43,0,"Ng4"],[2,132,114,0,"Ng4"],[3,88,205,0,"Ng4"],[4,88,354,0,"Ng4"],[5,89,1373,2,"Ng4"],[6,83,1810,3,"Ng4"],[7,52,3319,6,"Ng4"],[8,10,8873,16,"Qd7"],[9,9,11947,22,"Qd7"],[10,11,23171,42,"Ng4"],[11,-3,44936,80,"e5"],[12,-9,81225,139,"e5"],[13,-8,110260,187,"e5"],[14,2,211906,357,"Ng4"],[15,10,458264,770,"Qd7"],[16,11,639711,1062,"O-O"],[17,9,965360,1611,"O-O"],[18,13,1857829,3084,"b6"],[19,9,2476738,4108,"b6"]],"depth":19,"nodes":2476738,"score":9,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"b6","ms":4108.5,"capture":false,"check":false}},
+    {"fen":"r1bqk2r/p3ppbp/1pnp1np1/2p5/P3P3/2NPB1P1/1PP2PBP/R2QK1NR w KQkq - 0 8","number":8,"side":"white","uci":"g1e2","san":"Nge2","clocks":{"white":120000,"black":116391},"search":{"depth":9,"nodes":8007,"score":33,"mate":null,"pv":"8. Nge2 Ng4","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nge2","ms":15.1,"capture":false,"check":false}},
+    {"fen":"r1bqk2r/p3ppbp/1pnp1np1/2p5/P3P3/2NPB1P1/1PP1NPBP/R2QK2R b KQkq - 1 8","number":8,"side":"black","uci":"e8g8","san":"O-O","clocks":{"white":120484,"black":116391},"search":{"iterations":[[1,9,39,0,"Qd7"],[2,9,82,0,"Qd7"],[3,9,132,0,"Qd7"],[4,9,193,0,"Qd7"],[5,9,278,0,"Qd7"],[6,9,390,0,"Qd7"],[7,9,533,0,"Qd7"],[8,9,733,0,"Qd7"],[9,10,1417,1,"Qd7"],[10,9,2712,2,"Qd7"],[11,10,4048,3,"Qd7"],[12,8,8349,8,"Qd7"],[13,19,22551,26,"Qd7"],[14,18,37955,46,"Qd7"],[15,18,125491,180,"Qd7"],[16,14,255599,393,"Qd7"],[17,6,370942,576,"Qd7"],[18,12,702070,1119,"Qd7"],[19,12,1220608,1985,"O-O"],[20,-5,2860082,4733,"O-O"]],"depth":20,"nodes":2860082,"score":-5,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"O-O","ms":4733.9,"capture":false,"check":false}},
+    {"fen":"r1bq1rk1/p3ppbp/1pnp1np1/2p5/P3P3/2NPB1P1/1PP1NPBP/R2QK2R w KQ - 2 9","number":9,"side":"white","uci":"e4e5","san":"e5","clocks":{"white":120484,"black":112157},"search":{"depth":10,"nodes":8003,"score":60,"mate":null,"pv":"9. e5 Nxe5","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"e5","ms":8.4,"capture":false,"check":false}},
+    {"fen":"r1bq1rk1/p3ppbp/1pnp1np1/2p1P3/P7/2NPB1P1/1PP1NPBP/R2QK2R b KQ - 0 9","number":9,"side":"black","uci":"c6e5","san":"Nxe5","clocks":{"white":120976,"black":112157},"search":{"iterations":[[1,-5,38,0,"Nxe5"],[2,-87,85,0,"Ng4"],[3,-5,147,0,"Nxe5"],[4,-18,206,0,"Nxe5"],[5,-5,287,0,"Nxe5"],[6,-24,697,0,"Nxe5"],[7,68,1937,1,"Nxe5"],[8,121,3924,4,"Nxe5"],[9,132,6181,8,"Nxe5"],[10,112,14948,22,"Nxe5"],[11,125,24017,37,"Nxe5"],[12,116,39634,62,"Nxe5"],[13,102,59571,94,"Nxe5"],[14,96,96129,153,"Nxe5"],[15,76,138981,218,"Nxe5"],[16,87,316588,514,"Nxe5"],[17,79,492239,802,"Nxe5"],[18,74,820258,1341,"Nxe5"],[19,75,1282981,2107,"Nxe5"]],"depth":19,"nodes":1282981,"score":75,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Nxe5","ms":2107.9,"capture":true,"check":false}},
+    {"fen":"r1bq1rk1/p3ppbp/1p1p1np1/2p1n3/P7/2NPB1P1/1PP1NPBP/R2QK2R w KQ - 0 10","number":10,"side":"white","uci":"g2a8","san":"Bxa8","clocks":{"white":120976,"black":110549},"search":{"depth":10,"nodes":8001,"score":21,"mate":null,"pv":"10. Bxa8 Bh3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Bxa8","ms":8.1,"capture":true,"check":false}},
+    {"fen":"B1bq1rk1/p3ppbp/1p1p1np1/2p1n3/P7/2NPB1P1/1PP1NP1P/R2QK2R b KQ - 0 10","number":10,"side":"black","uci":"c8h3","san":"Bh3","clocks":{"white":121468,"black":110549},"search":{"iterations":[[1,75,36,0,"Bh3"],[2,76,76,0,"Bh3"],[3,76,122,0,"Bh3"],[4,94,200,0,"Bh3"],[5,91,285,0,"Bh3"],[6,176,1014,0,"Bh3"],[7,185,1371,1,"Bh3"],[8,167,3133,3,"Bh3"],[9,176,4773,5,"Bh3"],[10,224,16855,24,"Bh3"],[11,211,28167,42,"Bh3"],[12,212,49345,76,"Bh3"],[13,239,78980,123,"Bh3"],[14,213,125160,196,"Bh3"],[15,230,275910,443,"Bh3"],[16,234,423851,687,"Bh3"],[17,232,528128,853,"Bh3"],[18,227,756864,1227,"Bh3"],[19,239,1046635,1703,"Bh3"]],"depth":19,"nodes":1046635,"score":239,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Bh3","ms":1704.3,"capture":false,"check":false}},
+    {"fen":"B2q1rk1/p3ppbp/1p1p1np1/2p1n3/P7/2NPB1Pb/1PP1NP1P/R2QK2R w KQ - 1 11","number":11,"side":"white","uci":"a8c6","san":"Bc6","clocks":{"white":121468,"black":109345},"search":{"depth":10,"nodes":8003,"score":-211,"mate":null,"pv":"11. Bc6 Nxc6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Bc6","ms":7.7,"capture":false,"check":false}},
+    {"fen":"3q1rk1/p3ppbp/1pBp1np1/2p1n3/P7/2NPB1Pb/1PP1NP1P/R2QK2R b KQ - 2 11","number":11,"side":"black","uci":"d8d7","san":"Qd7","clocks":{"white":121960,"black":109345},"search":{"iterations":[[1,239,39,0,"Qd7"],[2,239,83,0,"Qd7"],[3,239,136,0,"Qd7"],[4,239,199,0,"Qd7"],[5,239,280,0,"Qd7"],[6,239,389,0,"Qd7"],[7,239,524,0,"Qd7"],[8,239,691,0,"Qd7"],[9,239,906,0,"Qd7"],[10,239,1214,0,"Qd7"],[11,239,1895,1,"Qd7"],[12,239,3173,2,"Qd7"],[13,239,6693,6,"Qd7"],[14,257,38445,55,"Qd7"],[15,239,69094,101,"Qd7"],[16,232,134532,200,"Qd7"],[17,229,272839,425,"Qd7"],[18,229,361814,568,"Qd7"],[19,246,734561,1199,"Qd7"],[20,246,1061359,1745,"Qd7"]],"depth":20,"nodes":1061359,"score":246,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qd7","ms":1745.7,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppbp/1pBp1np1/2p1n3/P7/2NPB1Pb/1PP1NP1P/R2QK2R w KQ - 3 12","number":12,"side":"white","uci":"e2d4","san":"Nd4","clocks":{"white":121960,"black":108099},"search":{"depth":10,"nodes":8006,"score":-271,"mate":null,"pv":"12. Nd4 Nxc6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nd4","ms":8.3,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppbp/1pBp1np1/2p1n3/P2N4/2NPB1Pb/1PP2P1P/R2QK2R b KQ - 4 12","number":12,"side":"black","uci":"e5c6","san":"Nxc6","clocks":{"white":122452,"black":108099},"search":{"iterations":[[1,246,45,0,"Nxc6"],[2,246,94,0,"Nxc6"],[3,246,146,0,"Nxc6"],[4,246,208,0,"Nxc6"],[5,246,287,0,"Nxc6"],[6,246,390,0,"Nxc6"],[7,246,519,0,"Nxc6"],[8,246,685,0,"Nxc6"],[9,246,1042,0,"Nxc6"],[10,279,3998,4,"Nxc6"],[11,286,7542,8,"Nxc6"],[12,263,19121,26,"Nxc6"],[13,294,53122,80,"Nxc6"],[14,299,74685,115,"Nxc6"],[15,287,117590,185,"Nxc6"],[16,258,242466,392,"Nxc6"],[17,254,409358,673,"Nxc6"],[18,253,540199,897,"Nxc6"],[19,246,745357,1293,"Nxc6"]],"depth":19,"nodes":745357,"score":246,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Nxc6","ms":1294.0,"capture":true,"check":false}},
+    {"fen":"5rk1/p2qppbp/1pnp1np1/2p5/P2N4/2NPB1Pb/1PP2P1P/R2QK2R w KQ - 0 13","number":13,"side":"white","uci":"d4c6","san":"Nxc6","clocks":{"white":122452,"black":107305},"search":{"depth":11,"nodes":8005,"score":-288,"mate":null,"pv":"13. Nxc6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nxc6","ms":10.1,"capture":true,"check":false}},
+    {"fen":"5rk1/p2qppbp/1pNp1np1/2p5/P7/2NPB1Pb/1PP2P1P/R2QK2R b KQ - 0 13","number":13,"side":"black","uci":"d7c6","san":"Qxc6","clocks":{"white":122942,"black":107305},"search":{"iterations":[[1,246,38,0,"Qxc6"],[2,246,80,0,"Qxc6"],[3,246,126,0,"Qxc6"],[4,246,184,0,"Qxc6"],[5,246,261,0,"Qxc6"],[6,246,365,0,"Qxc6"],[7,246,499,0,"Qxc6"],[8,246,669,0,"Qxc6"],[9,246,886,0,"Qxc6"],[10,246,1283,0,"Qxc6"],[11,246,1694,1,"Qxc6"],[12,246,2923,2,"Qxc6"],[13,246,5614,4,"Qxc6"],[14,246,9186,8,"Qxc6"],[15,246,15374,15,"Qxc6"],[16,246,28030,31,"Qxc6"],[17,244,81897,112,"Qxc6"],[18,246,202891,301,"Qxc6"],[19,237,433676,686,"Qxc6"],[20,240,830559,1352,"Qxc6"]],"depth":20,"nodes":830559,"score":240,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qxc6","ms":1352.9,"capture":true,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp1np1/2p5/P7/2NPB1Pb/1PP2P1P/R2QK2R w KQ - 0 14","number":14,"side":"white","uci":"f2f3","san":"f3","clocks":{"white":122942,"black":106452},"search":{"depth":14,"nodes":8005,"score":-272,"mate":null,"pv":"14. f3 Bg2 15. Rf1 Bxf1 16. Kxf1 Nd5 17. Nxd5 Qxd5","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"f3","ms":10.9,"capture":false,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp1np1/2p5/P7/2NPBPPb/1PP4P/R2QK2R b KQ - 0 14","number":14,"side":"black","uci":"f6g4","san":"Ng4","clocks":{"white":123431,"black":106452},"search":{"iterations":[[1,240,43,0,"Ng4"],[2,240,91,0,"Ng4"],[3,240,144,0,"Ng4"],[4,240,206,0,"Ng4"],[5,240,284,0,"Ng4"],[6,240,392,0,"Ng4"],[7,240,531,0,"Ng4"],[8,240,697,0,"Ng4"],[9,240,956,0,"Ng4"],[10,240,1811,1,"Ng4"],[11,240,3980,3,"Ng4"],[12,240,6084,5,"Ng4"],[13,240,8858,8,"Ng4"],[14,242,14058,13,"Ng4"],[15,240,22194,22,"Ng4"],[16,241,38981,43,"Ng4"],[17,238,106768,143,"Ng4"],[18,238,195458,286,"Ng4"],[19,236,478794,740,"Ng4"],[20,230,1639054,2646,"Ng4"]],"depth":20,"nodes":1639054,"score":230,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Ng4","ms":2647.6,"capture":false,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P5n1/2NPBPPb/1PP4P/R2QK2R w KQ - 1 15","number":15,"side":"white","uci":"d1e2","san":"Qe2","clocks":{"white":123431,"black":104305},"search":{"depth":13,"nodes":8006,"score":-293,"mate":null,"pv":"15. Qe2 Ne5 16. Kf2 Ng4+ 17. Ke1 Nxe3 18. Qxe3 Bg2","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Qe2","ms":9.1,"capture":false,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P5n1/2NPBPPb/1PP1Q2P/R3K2R b KQ - 2 15","number":15,"side":"black","uci":"g4e3","san":"Nxe3","clocks":{"white":123922,"black":104305},"search":{"iterations":[[1,230,44,0,"Nxe3"],[2,230,93,0,"Nxe3"],[3,230,147,0,"Nxe3"],[4,230,211,0,"Nxe3"],[5,230,295,0,"Nxe3"],[6,230,393,0,"Nxe3"],[7,230,516,0,"Nxe3"],[8,230,679,0,"Nxe3"],[9,230,1094,0,"Nxe3"],[10,230,2394,2,"Nxe3"],[11,230,4887,4,"Nxe3"],[12,230,6789,5,"Nxe3"],[13,230,9816,8,"Nxe3"],[14,233,16117,15,"Nxe3"],[15,230,28551,30,"Nxe3"],[16,236,57320,70,"Nxe3"],[17,235,88947,115,"Nxe3"],[18,235,113849,152,"Nxe3"],[19,235,158640,220,"Nxe3"],[20,230,491659,726,"Nxe3"],[21,234,915163,1383,"Nxe3"],[22,228,2559888,3971,"Nxe3"]],"depth":22,"nodes":2559888,"score":228,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Nxe3","ms":3971.9,"capture":true,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P7/2NPnPPb/1PP1Q2P/R3K2R w KQ - 0 16","number":16,"side":"white","uci":"e2e3","san":"Qxe3","clocks":{"white":123922,"black":100833},"search":{"depth":11,"nodes":8000,"score":-284,"mate":null,"pv":"16. Qxe3 Bg2 17. Rf1 Bxf1 18. Kxf1 e6 19. Kg2 h6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Qxe3","ms":9.5,"capture":true,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P7/2NPQPPb/1PP4P/R3K2R b KQ - 0 16","number":16,"side":"black","uci":"h3g2","san":"Bg2","clocks":{"white":124412,"black":100833},"search":{"iterations":[[1,228,43,0,"Bg2"],[2,228,91,0,"Bg2"],[3,228,148,0,"Bg2"],[4,228,215,0,"Bg2"],[5,228,300,0,"Bg2"],[6,228,414,0,"Bg2"],[7,228,558,0,"Bg2"],[8,228,727,0,"Bg2"],[9,228,1038,0,"Bg2"],[10,228,2115,1,"Bg2"],[11,228,3721,2,"Bg2"],[12,228,4934,3,"Bg2"],[13,228,7252,5,"Bg2"],[14,228,9719,7,"Bg2"],[15,228,13378,11,"Bg2"],[16,228,20343,17,"Bg2"],[17,228,29698,27,"Bg2"],[18,228,38856,37,"Bg2"],[19,228,64458,70,"Bg2"],[20,228,115768,143,"Bg2"],[21,228,214673,291,"Bg2"],[22,230,703145,1057,"Bg2"],[23,222,2668731,4161,"Bg2"]],"depth":23,"nodes":2668731,"score":222,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Bg2","ms":4162.0,"capture":false,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P7/2NPQPP1/1PP3bP/R3K2R w KQ - 1 17","number":17,"side":"white","uci":"h1f1","san":"Rf1","clocks":{"white":124412,"black":97171},"search":{"depth":15,"nodes":8001,"score":-268,"mate":null,"pv":"17. Rf1 Bxf1 18. Kxf1 Qd7 19. Qf4 h6 20. Kg2 Rc8","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Rf1","ms":8.7,"capture":false,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P7/2NPQPP1/1PP3bP/R3KR2 b Q - 2 17","number":17,"side":"black","uci":"g2f1","san":"Bxf1","clocks":{"white":124904,"black":97171},"search":{"iterations":[[1,222,40,0,"Bxf1"],[2,222,82,0,"Bxf1"],[3,222,129,0,"Bxf1"],[4,222,191,0,"Bxf1"],[5,222,275,0,"Bxf1"],[6,222,382,0,"Bxf1"],[7,222,517,0,"Bxf1"],[8,222,678,0,"Bxf1"],[9,222,977,0,"Bxf1"],[10,222,1445,0,"Bxf1"],[11,222,2122,1,"Bxf1"],[12,222,3701,2,"Bxf1"],[13,222,5768,4,"Bxf1"],[14,222,7595,5,"Bxf1"],[15,222,10557,7,"Bxf1"],[16,222,14091,10,"Bxf1"],[17,222,18169,14,"Bxf1"],[18,222,24032,19,"Bxf1"],[19,222,35359,32,"Bxf1"],[20,222,56052,59,"Bxf1"],[21,224,522153,801,"Bxf1"],[22,226,887063,1395,"Bxf1"]],"depth":22,"nodes":887063,"score":226,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Bxf1","ms":1396.3,"capture":true,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P7/2NPQPP1/1PP4P/R3Kb2 w Q - 0 18","number":18,"side":"white","uci":"e1f1","san":"Kxf1","clocks":{"white":124904,"black":96275},"search":{"depth":12,"nodes":8002,"score":-246,"mate":null,"pv":"18. Kxf1 Qd7 19. Kg2 d5 20. Qf4 Rd8 21. Re1 e6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kxf1","ms":9.3,"capture":true,"check":false}},
+    {"fen":"5rk1/p3ppbp/1pqp2p1/2p5/P7/2NPQPP1/1PP4P/R4K2 b - - 0 18","number":18,"side":"black","uci":"c6d7","san":"Qd7","clocks":{"white":125394,"black":96275},"search":{"iterations":[[1,226,36,0,"e6"],[2,226,76,0,"e6"],[3,226,122,0,"e6"],[4,226,176,0,"e6"],[5,226,246,0,"e6"],[6,226,339,0,"e6"],[7,226,457,0,"e6"],[8,226,610,0,"e6"],[9,226,1100,0,"e6"],[10,226,1702,1,"e6"],[11,226,2544,1,"e6"],[12,226,3559,2,"e6"],[13,226,4882,3,"e6"],[14,226,7907,5,"e6"],[15,226,10942,8,"e6"],[16,226,21425,19,"e6"],[17,222,208402,291,"Qd7"],[18,221,334116,462,"Qd7"],[19,220,1238757,1852,"Qd7"],[20,220,1718678,2609,"Qd7"],[21,221,3168269,4945,"Qd7"]],"depth":21,"nodes":3168269,"score":221,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qd7","ms":4946.0,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppbp/1p1p2p1/2p5/P7/2NPQPP1/1PP4P/R4K2 w - - 1 19","number":19,"side":"white","uci":"f1g2","san":"Kg2","clocks":{"white":125394,"black":91829},"search":{"depth":13,"nodes":8007,"score":-250,"mate":null,"pv":"19. Kg2 d5 20. Qf4 Rc8 21. h4 h6 22. h5 g5","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kg2","ms":8.6,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppbp/1p1p2p1/2p5/P7/2NPQPP1/1PP3KP/R7 b - - 2 19","number":19,"side":"black","uci":"d6d5","san":"d5","clocks":{"white":125886,"black":91829},"search":{"iterations":[[1,224,38,0,"Re8"],[2,221,87,0,"d5"],[3,221,133,0,"d5"],[4,221,195,0,"d5"],[5,222,321,0,"d5"],[6,221,517,0,"d5"],[7,221,728,0,"d5"],[8,221,1003,0,"d5"],[9,221,1400,0,"d5"],[10,221,2284,1,"d5"],[11,221,2989,1,"d5"],[12,221,3984,2,"d5"],[13,221,5244,3,"d5"],[14,221,13789,12,"d5"],[15,221,18450,17,"d5"],[16,221,31780,31,"d5"],[17,221,46414,49,"d5"],[18,222,380627,565,"d5"],[19,220,825259,1237,"d5"],[20,219,1442244,2181,"d5"]],"depth":20,"nodes":1442244,"score":219,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"d5","ms":2181.9,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppbp/1p4p1/2pp4/P7/2NPQPP1/1PP3KP/R7 w - - 0 20","number":20,"side":"white","uci":"e3f4","san":"Qf4","clocks":{"white":125886,"black":90147},"search":{"depth":13,"nodes":8004,"score":-251,"mate":null,"pv":"20. Qf4 Rc8 21. h4 h5 22. g4 hxg4 23. fxg4 Rc6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Qf4","ms":9.7,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppbp/1p4p1/2pp4/P4Q2/2NP1PP1/1PP3KP/R7 b - - 1 20","number":20,"side":"black","uci":"h7h6","san":"h6","clocks":{"white":126376,"black":90147},"search":{"iterations":[[1,257,39,0,"Rd8"],[2,234,105,0,"h6"],[3,224,177,0,"h6"],[4,231,276,0,"h6"],[5,240,710,0,"Rd8"],[6,224,942,0,"h6"],[7,224,1173,1,"h6"],[8,224,2447,2,"h6"],[9,234,5236,5,"Re8"],[10,228,11349,13,"a6"],[11,229,20424,27,"a6"],[12,229,28758,39,"a6"],[13,232,97359,140,"Rc8"],[14,224,114184,162,"Rc8"],[15,222,164037,235,"Rc8"],[16,219,402007,601,"h6"],[17,221,896587,1403,"h6"],[18,219,1106505,1731,"h6"],[19,218,1860488,2912,"h6"],[20,215,3328274,5337,"h6"]],"depth":20,"nodes":3328274,"score":215,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"h6","ms":5337.6,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppb1/1p4pp/2pp4/P4Q2/2NP1PP1/1PP3KP/R7 w - - 0 21","number":21,"side":"white","uci":"h2h4","san":"h4","clocks":{"white":126376,"black":85309},"search":{"depth":13,"nodes":8007,"score":-224,"mate":null,"pv":"21. h4 Re8 22. h5 g5 23. Qd2 f5 24. Re1","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"h4","ms":9.7,"capture":false,"check":false}},
+    {"fen":"5rk1/p2qppb1/1p4pp/2pp4/P4Q1P/2NP1PP1/1PP3K1/R7 b - - 0 21","number":21,"side":"black","uci":"a7a6","san":"a6","clocks":{"white":126866,"black":85309},"search":{"iterations":[[1,240,38,0,"h5"],[2,225,81,0,"h5"],[3,229,164,0,"Qe6"],[4,220,265,0,"Qe6"],[5,226,444,0,"Qe6"],[6,225,744,0,"Qe6"],[7,225,996,1,"Qe6"],[8,215,2435,2,"e6"],[9,216,2935,2,"e6"],[10,215,4183,4,"e6"],[11,219,6412,6,"e6"],[12,215,15486,17,"a6"],[13,215,46220,63,"a6"],[14,215,66326,95,"a6"],[15,220,129558,193,"a6"],[16,218,201465,307,"a6"],[17,221,356794,555,"a6"],[18,221,853149,1370,"a6"]],"depth":18,"nodes":853149,"score":221,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"a6","ms":1370.9,"capture":false,"check":false}},
+    {"fen":"5rk1/3qppb1/pp4pp/2pp4/P4Q1P/2NP1PP1/1PP3K1/R7 w - - 0 22","number":22,"side":"white","uci":"h4h5","san":"h5","clocks":{"white":126866,"black":84438},"search":{"depth":13,"nodes":8004,"score":-225,"mate":null,"pv":"22. h5 g5 23. Qd2 b5 24. axb5 axb5 25. f4 b4","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"h5","ms":9.8,"capture":false,"check":false}},
+    {"fen":"5rk1/3qppb1/pp4pp/2pp3P/P4Q2/2NP1PP1/1PP3K1/R7 b - - 0 22","number":22,"side":"black","uci":"g6g5","san":"g5","clocks":{"white":127357,"black":84438},"search":{"iterations":[[1,330,37,0,"g5"],[2,235,76,0,"g5"],[3,240,130,0,"g5"],[4,228,207,0,"g5"],[5,221,318,0,"g5"],[6,218,645,0,"g5"],[7,230,978,0,"g5"],[8,221,1407,1,"g5"],[9,214,3950,4,"g5"],[10,213,9329,11,"g5"],[11,231,13432,16,"g5"],[12,238,23231,30,"g5"],[13,224,44417,62,"g5"],[14,202,179977,280,"g5"],[15,210,352883,566,"g5"],[16,217,727611,1189,"e5"],[17,224,912412,1497,"e5"],[18,219,1154644,1895,"e5"],[19,214,1959562,3228,"g5"],[20,211,2180134,3581,"g5"]],"depth":20,"nodes":2180134,"score":211,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"g5","ms":3582.2,"capture":false,"check":false}},
+    {"fen":"5rk1/3qppb1/pp5p/2pp2pP/P4Q2/2NP1PP1/1PP3K1/R7 w - - 0 23","number":23,"side":"white","uci":"f4d2","san":"Qd2","clocks":{"white":127357,"black":81356},"search":{"depth":13,"nodes":8003,"score":-221,"mate":null,"pv":"23. Qd2 b5 24. axb5 axb5 25. Nd1 b4 26. c3 Rb8","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Qd2","ms":10.3,"capture":false,"check":false}},
+    {"fen":"5rk1/3qppb1/pp5p/2pp2pP/P7/2NP1PP1/1PPQ2K1/R7 b - - 1 23","number":23,"side":"black","uci":"e7e6","san":"e6","clocks":{"white":127846,"black":81356},"search":{"iterations":[[1,211,36,0,"e6"],[2,219,87,0,"Ra8"],[3,213,143,0,"Ra8"],[4,213,223,0,"Ra8"],[5,211,546,0,"e6"],[6,211,678,0,"e6"],[7,211,895,0,"e6"],[8,211,1197,0,"e6"],[9,211,2061,1,"e6"],[10,211,2669,2,"e6"],[11,211,3476,2,"e6"],[12,211,4769,3,"e6"],[13,211,6609,5,"e6"],[14,211,9371,8,"e6"],[15,211,14460,14,"e6"],[16,211,26191,31,"e6"],[17,211,57645,79,"e6"],[18,211,144743,219,"e6"],[19,202,374717,587,"e6"],[20,198,1153185,1887,"e6"],[21,207,1497487,2449,"e6"]],"depth":21,"nodes":1497487,"score":207,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"e6","ms":2449.8,"capture":false,"check":false}},
+    {"fen":"5rk1/3q1pb1/pp2p2p/2pp2pP/P7/2NP1PP1/1PPQ2K1/R7 w - - 0 24","number":24,"side":"white","uci":"c3d1","san":"Nd1","clocks":{"white":127846,"black":79406},"search":{"depth":12,"nodes":8001,"score":-229,"mate":null,"pv":"24. Nd1 Be5 25. Qf2 Qd6 26. c3 Bg7 27. Ne3 Rd8","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nd1","ms":10.2,"capture":false,"check":false}},
+    {"fen":"5rk1/3q1pb1/pp2p2p/2pp2pP/P7/3P1PP1/1PPQ2K1/R2N4 b - - 1 24","number":24,"side":"black","uci":"d7c6","san":"Qc6","clocks":{"white":128336,"black":79406},"search":{"iterations":[[1,207,33,0,"Qc6"],[2,207,70,0,"Qc6"],[3,207,112,0,"Qc6"],[4,207,169,0,"Qc6"],[5,207,239,0,"Qc6"],[6,207,340,0,"Qc6"],[7,207,458,0,"Qc6"],[8,207,611,0,"Qc6"],[9,207,874,0,"Qc6"],[10,207,1661,1,"Qc6"],[11,207,2734,2,"Qc6"],[12,207,4390,3,"Qc6"],[13,207,6653,6,"Qc6"],[14,207,8111,7,"Qc6"],[15,207,10563,9,"Qc6"],[16,207,16621,17,"Qc6"],[17,207,29288,35,"Qc6"],[18,203,144202,215,"Qc6"],[19,208,434897,685,"Qc6"],[20,198,1132041,1837,"Qc6"]],"depth":20,"nodes":3078146,"score":198,"reason":"search","aborted":true,"partial":false,"actor":"Agent v9","side":"Black","san":"Qc6","ms":5107.4,"capture":false,"check":false}},
+    {"fen":"5rk1/5pb1/ppq1p2p/2pp2pP/P7/3P1PP1/1PPQ2K1/R2N4 w - - 2 25","number":25,"side":"white","uci":"c2c3","san":"c3","clocks":{"white":128336,"black":74799},"search":{"depth":14,"nodes":8010,"score":-205,"mate":null,"pv":"25. c3 Rb8 26. Nf2 b5 27. axb5 Rxb5 28. Ra2 a5","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"c3","ms":10.0,"capture":false,"check":false}},
+    {"fen":"5rk1/5pb1/ppq1p2p/2pp2pP/P7/2PP1PP1/1P1Q2K1/R2N4 b - - 0 25","number":25,"side":"black","uci":"f8b8","san":"Rb8","clocks":{"white":128826,"black":74799},"search":{"iterations":[[1,185,30,0,"Rb8"],[2,185,64,0,"Rb8"],[3,185,103,0,"Rb8"],[4,185,153,0,"Rb8"],[5,185,222,0,"Rb8"],[6,185,311,0,"Rb8"],[7,185,425,0,"Rb8"],[8,185,568,0,"Rb8"],[9,185,963,0,"Rb8"],[10,185,1739,1,"Rb8"],[11,185,2282,1,"Rb8"],[12,185,3667,2,"Rb8"],[13,185,5917,4,"Rb8"],[14,185,8687,7,"Rb8"],[15,185,13054,12,"Rb8"],[16,185,26375,31,"Rb8"],[17,192,88318,126,"Rb8"],[18,197,200260,295,"Rb8"],[19,198,356468,538,"Rb8"],[20,198,682439,1065,"Rb8"]],"depth":20,"nodes":682439,"score":198,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rb8","ms":1065.8,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/ppq1p2p/2pp2pP/P7/2PP1PP1/1P1Q2K1/R2N4 w - - 1 26","number":26,"side":"white","uci":"d1f2","san":"Nf2","clocks":{"white":128826,"black":74233},"search":{"depth":12,"nodes":8004,"score":-217,"mate":null,"pv":"26. Nf2 b5 27. axb5 axb5 28. d4 cxd4 29. cxd4 Qc4","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nf2","ms":9.6,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/ppq1p2p/2pp2pP/P7/2PP1PP1/1P1Q1NK1/R7 b - - 2 26","number":26,"side":"black","uci":"a6a5","san":"a5","clocks":{"white":129317,"black":74233},"search":{"iterations":[[1,212,35,0,"a5"],[2,198,86,0,"b5"],[3,198,132,0,"b5"],[4,198,188,0,"b5"],[5,198,270,0,"b5"],[6,201,426,0,"b5"],[7,201,591,0,"b5"],[8,198,945,0,"b5"],[9,192,2870,2,"b5"],[10,190,6264,5,"a5"],[11,187,15201,17,"a5"],[12,199,29180,36,"a5"],[13,199,44612,57,"a5"],[14,191,69588,93,"a5"],[15,188,219446,318,"a5"],[16,188,279864,407,"a5"],[17,191,457631,681,"a5"],[18,187,766810,1175,"a5"]],"depth":18,"nodes":766810,"score":187,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"a5","ms":1176.4,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/1pq1p2p/p1pp2pP/P7/2PP1PP1/1P1Q1NK1/R7 w - - 0 27","number":27,"side":"white","uci":"f2g4","san":"Ng4","clocks":{"white":129317,"black":73556},"search":{"depth":13,"nodes":8010,"score":-189,"mate":null,"pv":"27. Ng4 Rb7 28. Nf2 b5 29. axb5 Qxb5 30. Ra2 a4","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ng4","ms":8.9,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/1pq1p2p/p1pp2pP/P5N1/2PP1PP1/1P1Q2K1/R7 b - - 1 27","number":27,"side":"black","uci":"b6b5","san":"b5","clocks":{"white":129808,"black":73556},"search":{"iterations":[[1,211,33,0,"f5"],[2,199,68,0,"f5"],[3,199,127,0,"f5"],[4,201,264,0,"b5"],[5,208,438,0,"b5"],[6,222,715,0,"b5"],[7,222,1087,1,"b5"],[8,235,2501,2,"b5"],[9,212,4545,5,"b5"],[10,202,12606,17,"b5"],[11,202,15753,21,"b5"],[12,202,20326,27,"b5"],[13,189,39388,56,"b5"],[14,183,94221,143,"b5"],[15,180,208750,330,"b5"],[16,192,302227,479,"b5"],[17,213,489986,781,"b5"],[18,208,754312,1219,"b5"]],"depth":18,"nodes":754312,"score":208,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"b5","ms":1220.2,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/2q1p2p/pppp2pP/P5N1/2PP1PP1/1P1Q2K1/R7 w - - 0 28","number":28,"side":"white","uci":"a4b5","san":"axb5","clocks":{"white":129808,"black":72836},"search":{"depth":12,"nodes":8008,"score":-178,"mate":null,"pv":"28. axb5 Qxb5 29. Ra2 a4 30. Qd1 Ra8 31. Kh3 Ra6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"axb5","ms":8.3,"capture":true,"check":false}},
+    {"fen":"1r4k1/5pb1/2q1p2p/pPpp2pP/6N1/2PP1PP1/1P1Q2K1/R7 b - - 0 28","number":28,"side":"black","uci":"c6b5","san":"Qxb5","clocks":{"white":130299,"black":72836},"search":{"iterations":[[1,231,34,0,"Qxb5"],[2,231,72,0,"Qxb5"],[3,231,119,0,"Qxb5"],[4,231,179,0,"Qxb5"],[5,231,256,0,"Qxb5"],[6,230,583,0,"Qxb5"],[7,231,953,0,"Qxb5"],[8,231,1608,1,"Qxb5"],[9,231,2098,1,"Qxb5"],[10,229,2898,2,"Qxb5"],[11,233,4477,4,"Qxb5"],[12,229,14458,18,"Qxb5"],[13,238,47941,73,"Qxb5"],[14,236,57602,87,"Qxb5"],[15,233,99057,155,"Qxb5"],[16,239,240323,383,"Qxb5"],[17,255,292837,458,"Qxb5"],[18,258,383091,593,"Qxb5"],[19,176,1001434,1593,"Qxb5"],[20,197,1124662,1772,"Qxb5"],[21,199,1303209,2044,"Qxb5"]],"depth":21,"nodes":1303209,"score":199,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qxb5","ms":2044.9,"capture":true,"check":false}},
+    {"fen":"1r4k1/5pb1/4p2p/pqpp2pP/6N1/2PP1PP1/1P1Q2K1/R7 w - - 0 29","number":29,"side":"white","uci":"a1a2","san":"Ra2","clocks":{"white":130299,"black":71291},"search":{"depth":11,"nodes":8001,"score":-185,"mate":null,"pv":"29. Ra2 a4 30. Qc2 Ra8 31. Qe2 Qb3 32. Ra3 Qb7","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ra2","ms":8.7,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/4p2p/pqpp2pP/6N1/2PP1PP1/RP1Q2K1/8 b - - 1 29","number":29,"side":"black","uci":"b5b3","san":"Qb3","clocks":{"white":130791,"black":71291},"search":{"iterations":[[1,199,35,0,"Qb3"],[2,199,75,0,"Qb3"],[3,199,121,0,"Qb3"],[4,199,180,0,"Qb3"],[5,199,264,0,"Qb3"],[6,199,364,0,"Qb3"],[7,199,490,0,"Qb3"],[8,199,638,0,"Qb3"],[9,199,1008,0,"Qb3"],[10,199,1552,0,"Qb3"],[11,199,2720,1,"Qb3"],[12,199,4558,3,"Qb3"],[13,199,5474,3,"Qb3"],[14,199,9351,7,"Qb3"],[15,199,14728,13,"Qb3"],[16,199,20559,19,"Qb3"],[17,199,29536,31,"Qb3"],[18,177,93048,122,"Qb3"],[19,182,192856,275,"Qb3"],[20,200,257276,364,"Qb3"],[21,227,557940,791,"Qb3"],[22,212,1030827,1483,"Qb3"],[23,245,1415819,2018,"Qb3"],[24,265,2245652,3210,"Qb3"]],"depth":24,"nodes":2245652,"score":265,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qb3","ms":3211.4,"capture":false,"check":false}},
+    {"fen":"1r4k1/5pb1/4p2p/p1pp2pP/6N1/1qPP1PP1/RP1Q2K1/8 w - - 2 30","number":30,"side":"white","uci":"a2a5","san":"Rxa5","clocks":{"white":130791,"black":68580},"search":{"depth":11,"nodes":8004,"score":-176,"mate":null,"pv":"30. Rxa5 Qxb2","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Rxa5","ms":6.7,"capture":true,"check":false}},
+    {"fen":"1r4k1/5pb1/4p2p/R1pp2pP/6N1/1qPP1PP1/1P1Q2K1/8 b - - 0 30","number":30,"side":"black","uci":"b3b2","san":"Qxb2","clocks":{"white":131284,"black":68580},"search":{"iterations":[[1,265,36,0,"Qxb2"],[2,265,78,0,"Qxb2"],[3,265,133,0,"Qxb2"],[4,265,199,0,"Qxb2"],[5,265,284,0,"Qxb2"],[6,265,384,0,"Qxb2"],[7,265,503,0,"Qxb2"],[8,265,637,0,"Qxb2"],[9,265,870,0,"Qxb2"],[10,265,1184,0,"Qxb2"],[11,265,1658,0,"Qxb2"],[12,265,3086,2,"Qxb2"],[13,265,5228,3,"Qxb2"],[14,265,6396,4,"Qxb2"],[15,265,8436,6,"Qxb2"],[16,245,16466,14,"Qxb2"],[17,241,26747,24,"Qxb2"],[18,228,40547,38,"Qxb2"],[19,265,69956,70,"Qxb2"],[20,265,139994,161,"Qxb2"],[21,253,230551,279,"Qxb2"],[22,267,519918,668,"Qxb2"],[23,282,1221350,1651,"Qxb2"]],"depth":23,"nodes":1221350,"score":282,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qxb2","ms":1652.2,"capture":true,"check":false}},
+    {"fen":"1r4k1/5pb1/4p2p/R1pp2pP/6N1/2PP1PP1/1q1Q2K1/8 w - - 0 31","number":31,"side":"white","uci":"d2b2","san":"Qxb2","clocks":{"white":131284,"black":67428},"search":{"depth":12,"nodes":8000,"score":-220,"mate":null,"pv":"31. Qxb2 Rxb2+ 32. Kf1 Bxc3 33. Rxc5 Bd4 34. Rc7 Kg7","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Qxb2","ms":6.5,"capture":true,"check":false}},
+    {"fen":"1r4k1/5pb1/4p2p/R1pp2pP/6N1/2PP1PP1/1Q4K1/8 b - - 0 31","number":31,"side":"black","uci":"b8b2","san":"Rxb2+","clocks":{"white":131777,"black":67428},"search":{"iterations":[[1,282,31,0,"Rxb2+"],[2,282,64,0,"Rxb2+"],[3,282,106,0,"Rxb2+"],[4,282,160,0,"Rxb2+"],[5,282,234,0,"Rxb2+"],[6,282,324,0,"Rxb2+"],[7,282,433,0,"Rxb2+"],[8,282,562,0,"Rxb2+"],[9,282,825,0,"Rxb2+"],[10,282,1316,0,"Rxb2+"],[11,282,2119,1,"Rxb2+"],[12,282,2586,1,"Rxb2+"],[13,282,3802,2,"Rxb2+"],[14,282,4737,2,"Rxb2+"],[15,282,7065,4,"Rxb2+"],[16,282,8985,5,"Rxb2+"],[17,282,12971,8,"Rxb2+"],[18,282,17924,12,"Rxb2+"],[19,247,35340,31,"Rxb2+"],[20,264,52691,50,"Rxb2+"],[21,252,80660,82,"Rxb2+"],[22,279,415773,549,"Rxb2+"],[23,281,821056,1114,"Rxb2+"]],"depth":23,"nodes":821056,"score":281,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rxb2+","ms":1115.0,"capture":true,"check":true}},
+    {"fen":"6k1/5pb1/4p2p/R1pp2pP/6N1/2PP1PP1/1r4K1/8 w - - 0 32","number":32,"side":"white","uci":"g2f1","san":"Kf1","clocks":{"white":131777,"black":66813},"search":{"depth":12,"nodes":8005,"score":-207,"mate":null,"pv":"32. Kf1 Bxc3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kf1","ms":7.3,"capture":false,"check":false}},
+    {"fen":"6k1/5pb1/4p2p/R1pp2pP/6N1/2PP1PP1/1r6/5K2 b - - 1 32","number":32,"side":"black","uci":"f7f5","san":"f5","clocks":{"white":132270,"black":66813},"search":{"iterations":[[1,281,29,0,"f5"],[2,281,67,0,"f5"],[3,281,112,0,"f5"],[4,281,171,0,"f5"],[5,281,238,0,"f5"],[6,281,324,0,"f5"],[7,281,427,0,"f5"],[8,281,555,0,"f5"],[9,281,728,0,"f5"],[10,281,1107,0,"f5"],[11,281,1787,0,"f5"],[12,288,8129,6,"f5"],[13,288,12786,10,"f5"],[14,281,22996,18,"f5"],[15,281,34277,28,"f5"],[16,267,48942,43,"f5"],[17,288,86858,82,"f5"],[18,269,110054,106,"f5"],[19,277,147433,146,"f5"],[20,277,210873,222,"f5"],[21,277,302363,341,"f5"],[22,288,740757,928,"f5"],[23,282,1493117,1957,"f5"],[24,287,2191870,2926,"f5"]],"depth":24,"nodes":2191870,"score":287,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"f5","ms":2927.2,"capture":false,"check":false}},
+    {"fen":"6k1/6b1/4p2p/R1pp1ppP/6N1/2PP1PP1/1r6/5K2 w - - 0 33","number":33,"side":"white","uci":"a5a8","san":"Ra8+","clocks":{"white":132270,"black":64385},"search":{"depth":12,"nodes":8005,"score":-138,"mate":null,"pv":"33. Ra8+ Kh7 34. Ne3 Rb1+ 35. Kg2 Re1 36. Kf2 Bxc3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ra8+","ms":6.3,"capture":false,"check":true}},
+    {"fen":"R5k1/6b1/4p2p/2pp1ppP/6N1/2PP1PP1/1r6/5K2 b - - 1 33","number":33,"side":"black","uci":"g8h7","san":"Kh7","clocks":{"white":132764,"black":64385},"search":{"iterations":[[1,287,5,0,"Kh7"],[2,287,14,0,"Kh7"],[3,287,31,0,"Kh7"],[4,287,56,0,"Kh7"],[5,287,95,0,"Kh7"],[6,287,155,0,"Kh7"],[7,287,230,0,"Kh7"],[8,287,325,0,"Kh7"],[9,287,443,0,"Kh7"],[10,287,677,0,"Kh7"],[11,287,1267,0,"Kh7"],[12,287,2346,1,"Kh7"],[13,287,4130,3,"Kh7"],[14,287,4997,3,"Kh7"],[15,287,7755,5,"Kh7"],[16,302,34819,32,"Kh7"],[17,299,74753,75,"Kh7"],[18,292,92884,92,"Kh7"],[19,300,123606,122,"Kh7"],[20,296,179065,189,"Kh7"],[21,296,303484,350,"Kh7"],[22,290,470922,569,"Kh7"],[23,250,1007054,1295,"Kh7"],[24,259,1823692,2423,"Kh7"]],"depth":24,"nodes":1823692,"score":259,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Kh7","ms":2424.2,"capture":false,"check":false}},
+    {"fen":"R7/6bk/4p2p/2pp1ppP/6N1/2PP1PP1/1r6/5K2 w - - 2 34","number":34,"side":"white","uci":"g4e3","san":"Ne3","clocks":{"white":132764,"black":62461},"search":{"depth":10,"nodes":8010,"score":-121,"mate":null,"pv":"34. Ne3 Rb1+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ne3","ms":6.7,"capture":false,"check":false}},
+    {"fen":"R7/6bk/4p2p/2pp1ppP/8/2PPNPP1/1r6/5K2 b - - 3 34","number":34,"side":"black","uci":"d5d4","san":"d4","clocks":{"white":133257,"black":62461},"search":{"iterations":[[1,259,27,0,"d4"],[2,259,60,0,"d4"],[3,259,96,0,"d4"],[4,259,142,0,"d4"],[5,259,201,0,"d4"],[6,259,278,0,"d4"],[7,259,382,0,"d4"],[8,259,540,0,"d4"],[9,212,1366,1,"d4"],[10,259,2422,1,"d4"],[11,263,7108,6,"d4"],[12,290,16262,14,"d4"],[13,286,23340,20,"d4"],[14,271,36444,33,"d4"],[15,285,60686,57,"d4"],[16,285,70973,69,"d4"],[17,310,167548,174,"d4"],[18,325,306641,348,"d4"],[19,309,419049,488,"d4"],[20,342,839752,1043,"d4"],[21,345,1196504,1527,"d4"]],"depth":21,"nodes":1196504,"score":345,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"d4","ms":1528.5,"capture":false,"check":false}},
+    {"fen":"R7/6bk/4p2p/2p2ppP/3p4/2PPNPP1/1r6/5K2 w - - 0 35","number":35,"side":"white","uci":"c3d4","san":"cxd4","clocks":{"white":133257,"black":61433},"search":{"depth":12,"nodes":8000,"score":-265,"mate":null,"pv":"35. cxd4 Bxd4 36. Nd1 Rd2 37. Ke1 Rg2 38. g4 fxg4","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"cxd4","ms":6.4,"capture":true,"check":false}},
+    {"fen":"R7/6bk/4p2p/2p2ppP/3P4/3PNPP1/1r6/5K2 b - - 0 35","number":35,"side":"black","uci":"g7d4","san":"Bxd4","clocks":{"white":133751,"black":61433},"search":{"iterations":[[1,345,25,0,"Bxd4"],[2,345,54,0,"Bxd4"],[3,345,87,0,"Bxd4"],[4,345,129,0,"Bxd4"],[5,345,186,0,"Bxd4"],[6,345,258,0,"Bxd4"],[7,345,342,0,"Bxd4"],[8,345,447,0,"Bxd4"],[9,345,567,0,"Bxd4"],[10,345,784,0,"Bxd4"],[11,345,1096,0,"Bxd4"],[12,345,1598,1,"Bxd4"],[13,345,2135,1,"Bxd4"],[14,345,2885,1,"Bxd4"],[15,345,4055,2,"Bxd4"],[16,345,5562,3,"Bxd4"],[17,333,34641,39,"Bxd4"],[18,313,68637,85,"Bxd4"],[19,285,253647,334,"Bxd4"],[20,298,407226,592,"Bxd4"],[21,318,634415,871,"Bxd4"],[22,305,848467,1147,"Bxd4"]],"depth":22,"nodes":848467,"score":305,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Bxd4","ms":1147.7,"capture":true,"check":false}},
+    {"fen":"R7/7k/4p2p/2p2ppP/3b4/3PNPP1/1r6/5K2 w - - 0 36","number":36,"side":"white","uci":"e3c4","san":"Nc4","clocks":{"white":133751,"black":60785},"search":{"depth":11,"nodes":8010,"score":-236,"mate":null,"pv":"36. Nc4 Rf2+ 37. Ke1 Rxf3 38. Re8 Rxd3 39. Re7+ Kg8","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nc4","ms":7.2,"capture":false,"check":false}},
+    {"fen":"R7/7k/4p2p/2p2ppP/2Nb4/3P1PP1/1r6/5K2 b - - 1 36","number":36,"side":"black","uci":"b2f2","san":"Rf2+","clocks":{"white":134243,"black":60785},"search":{"iterations":[[1,305,30,0,"Rf2+"],[2,305,60,0,"Rf2+"],[3,305,107,0,"Rf2+"],[4,305,161,0,"Rf2+"],[5,267,349,0,"Rf2+"],[6,267,463,0,"Rf2+"],[7,305,644,0,"Rf2+"],[8,306,1134,0,"Rf2+"],[9,310,3188,2,"Rf2+"],[10,324,9321,7,"Rf2+"],[11,336,28986,28,"Rf2+"],[12,336,29720,28,"Rf2+"],[13,341,110099,123,"Rf2+"],[14,377,210906,245,"Rf2+"],[15,355,228872,267,"Rf2+"],[16,391,572080,721,"Rf2+"],[17,406,785997,1014,"Rf2+"],[18,395,1243862,1665,"Rf2+"]],"depth":18,"nodes":1243862,"score":395,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rf2+","ms":1665.8,"capture":false,"check":true}},
+    {"fen":"R7/7k/4p2p/2p2ppP/2Nb4/3P1PP1/5r2/5K2 w - - 2 37","number":37,"side":"white","uci":"f1e1","san":"Ke1","clocks":{"white":134243,"black":59619},"search":{"depth":11,"nodes":8000,"score":-287,"mate":null,"pv":"37. Ke1 Rxf3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ke1","ms":7.2,"capture":false,"check":false}},
+    {"fen":"R7/7k/4p2p/2p2ppP/2Nb4/3P1PP1/5r2/4K3 b - - 3 37","number":37,"side":"black","uci":"f2f3","san":"Rxf3","clocks":{"white":134736,"black":59619},"search":{"iterations":[[1,395,22,0,"Rxf3"],[2,395,51,0,"Rxf3"],[3,395,85,0,"Rxf3"],[4,395,131,0,"Rxf3"],[5,395,192,0,"Rxf3"],[6,395,268,0,"Rxf3"],[7,395,366,0,"Rxf3"],[8,395,482,0,"Rxf3"],[9,395,694,0,"Rxf3"],[10,395,1244,0,"Rxf3"],[11,395,2353,1,"Rxf3"],[12,395,4029,3,"Rxf3"],[13,395,5704,4,"Rxf3"],[14,401,30841,33,"Rxf3"],[15,401,42142,43,"Rxf3"],[16,425,433498,556,"Rxf3"],[17,414,553805,709,"Rxf3"]],"depth":17,"nodes":553805,"score":414,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rxf3","ms":709.5,"capture":true,"check":false}},
+    {"fen":"R7/7k/4p2p/2p2ppP/2Nb4/3P1rP1/8/4K3 w - - 0 38","number":38,"side":"white","uci":"c4d6","san":"Nd6","clocks":{"white":134736,"black":59410},"search":{"depth":12,"nodes":8003,"score":-325,"mate":null,"pv":"38. Nd6 Rxd3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nd6","ms":6.8,"capture":false,"check":false}},
+    {"fen":"R7/7k/3Np2p/2p2ppP/3b4/3P1rP1/8/4K3 b - - 1 38","number":38,"side":"black","uci":"f3g3","san":"Rxg3","clocks":{"white":135229,"black":59410},"search":{"iterations":[[1,414,23,0,"Rxg3"],[2,346,59,0,"Rxg3"],[3,414,100,0,"Rxg3"],[4,414,163,0,"Rxg3"],[5,414,255,0,"Rxg3"],[6,414,844,0,"Rxg3"],[7,415,1352,1,"Rxg3"],[8,415,1993,1,"Rxg3"],[9,415,3103,2,"Rxg3"],[10,415,4991,4,"Rxg3"],[11,418,17148,17,"Rxg3"],[12,412,31141,32,"Rxg3"],[13,435,84707,97,"Rxg3"],[14,432,115546,135,"Rxg3"],[15,446,261273,326,"Rxg3"],[16,451,462946,594,"Rxg3"],[17,464,948330,1269,"Rxg3"]],"depth":17,"nodes":948330,"score":464,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rxg3","ms":1270.2,"capture":true,"check":false}},
+    {"fen":"R7/7k/3Np2p/2p2ppP/3b4/3P2r1/8/4K3 w - - 0 39","number":39,"side":"white","uci":"a8a7","san":"Ra7+","clocks":{"white":135229,"black":58640},"search":{"depth":12,"nodes":8002,"score":-356,"mate":null,"pv":"39. Ra7+ Kg8 40. Kd2 Rg2+ 41. Kd1 Rh2 42. Re7 Rxh5","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ra7+","ms":6.7,"capture":false,"check":true}},
+    {"fen":"8/R6k/3Np2p/2p2ppP/3b4/3P2r1/8/4K3 b - - 1 39","number":39,"side":"black","uci":"h7g8","san":"Kg8","clocks":{"white":135723,"black":58640},"search":{"iterations":[[1,464,4,0,"Kg8"],[2,464,12,0,"Kg8"],[3,464,28,0,"Kg8"],[4,464,60,0,"Kg8"],[5,464,111,0,"Kg8"],[6,464,180,0,"Kg8"],[7,464,266,0,"Kg8"],[8,464,374,0,"Kg8"],[9,464,503,0,"Kg8"],[10,464,1080,0,"Kg8"],[11,465,4580,3,"Kg8"],[12,465,9946,9,"Kg8"],[13,469,45221,57,"Kg8"],[14,469,145056,191,"Kg8"],[15,480,551932,727,"Kg8"],[16,479,664736,877,"Kg8"]],"depth":16,"nodes":664736,"score":479,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Kg8","ms":877.5,"capture":false,"check":false}},
+    {"fen":"6k1/R7/3Np2p/2p2ppP/3b4/3P2r1/8/4K3 w - - 2 40","number":40,"side":"white","uci":"a7e7","san":"Re7","clocks":{"white":135723,"black":58262},"search":{"depth":13,"nodes":8000,"score":-352,"mate":null,"pv":"40. Re7 Re3+ 41. Kf1 g4 42. Ra7 f4","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Re7","ms":6.9,"capture":false,"check":false}},
+    {"fen":"6k1/4R3/3Np2p/2p2ppP/3b4/3P2r1/8/4K3 b - - 3 40","number":40,"side":"black","uci":"g3e3","san":"Re3+","clocks":{"white":136216,"black":58262},"search":{"iterations":[[1,481,28,0,"Re3+"],[2,479,70,0,"Re3+"],[3,479,123,0,"Re3+"],[4,479,198,0,"Re3+"],[5,370,606,0,"Re3+"],[6,479,963,0,"Re3+"],[7,466,1273,0,"Re3+"],[8,481,1678,1,"Re3+"],[9,481,3664,2,"Re3+"],[10,466,11965,12,"Re3+"],[11,472,22930,25,"Re3+"],[12,483,41759,49,"Re3+"],[13,495,83655,106,"Re3+"],[14,501,172094,224,"Re3+"],[15,502,281633,374,"Re3+"],[16,523,688798,942,"Re3+"],[17,501,936830,1291,"Re3+"],[18,537,1769286,2433,"Re3+"]],"depth":18,"nodes":1769286,"score":537,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Re3+","ms":2433.6,"capture":false,"check":true}},
+    {"fen":"6k1/4R3/3Np2p/2p2ppP/3b4/3Pr3/8/4K3 w - - 4 41","number":41,"side":"white","uci":"e1f1","san":"Kf1","clocks":{"white":136216,"black":56329},"search":{"depth":12,"nodes":8000,"score":-370,"mate":null,"pv":"41. Kf1 g4 42. Ra7 Rxd3 43. Re7 Re3 44. Ra7 Rf3+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kf1","ms":7.9,"capture":false,"check":false}},
+    {"fen":"6k1/4R3/3Np2p/2p2ppP/3b4/3Pr3/8/5K2 b - - 5 41","number":41,"side":"black","uci":"g5g4","san":"g4","clocks":{"white":136708,"black":56329},"search":{"iterations":[[1,537,22,0,"g4"],[2,537,50,0,"g4"],[3,537,87,0,"g4"],[4,537,133,0,"g4"],[5,537,190,0,"g4"],[6,537,263,0,"g4"],[7,537,359,0,"g4"],[8,537,480,0,"g4"],[9,537,805,0,"g4"],[10,537,1411,0,"g4"],[11,537,2283,1,"g4"],[12,524,37755,46,"g4"],[13,543,92851,115,"g4"],[14,534,185983,241,"g4"],[15,564,304734,398,"g4"],[16,553,415162,552,"g4"],[17,576,1077913,1422,"g4"],[18,589,1731683,2309,"g4"]],"depth":18,"nodes":1731683,"score":589,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"g4","ms":2310.1,"capture":false,"check":false}},
+    {"fen":"6k1/4R3/3Np2p/2p2p1P/3b2p1/3Pr3/8/5K2 w - - 0 42","number":42,"side":"white","uci":"e7d7","san":"Rd7","clocks":{"white":136708,"black":54518},"search":{"depth":13,"nodes":8011,"score":-393,"mate":null,"pv":"42. Rd7 Rxd3 43. Nc8 Re3 44. Ne7+ Kf8 45. Ra7 g3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Rd7","ms":6.9,"capture":false,"check":false}},
+    {"fen":"6k1/3R4/3Np2p/2p2p1P/3b2p1/3Pr3/8/5K2 b - - 1 42","number":42,"side":"black","uci":"e3f3","san":"Rf3+","clocks":{"white":137201,"black":54518},"search":{"iterations":[[1,594,26,0,"Rf3+"],[2,594,52,0,"Rf3+"],[3,594,83,0,"Rf3+"],[4,594,127,0,"Rf3+"],[5,594,190,0,"Rf3+"],[6,594,276,0,"Rf3+"],[7,594,390,0,"Rf3+"],[8,594,551,0,"Rf3+"],[9,594,868,0,"Rf3+"],[10,595,7621,6,"Rf3+"],[11,574,10187,9,"Rf3+"],[12,549,18050,17,"Rf3+"],[13,551,35343,34,"Rf3+"],[14,600,103345,117,"Rf3+"],[15,599,230886,285,"Rf3+"],[16,621,403212,513,"Rf3+"],[17,635,562212,731,"Rf3+"]],"depth":17,"nodes":562212,"score":635,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rf3+","ms":732.0,"capture":false,"check":true}},
+    {"fen":"6k1/3R4/3Np2p/2p2p1P/3b2p1/3P1r2/8/5K2 w - - 2 43","number":43,"side":"white","uci":"f1e2","san":"Ke2","clocks":{"white":137201,"black":54286},"search":{"depth":14,"nodes":8006,"score":-413,"mate":null,"pv":"43. Ke2 Rh3 44. Re7 Re3+ 45. Kf1 f4 46. Ne4 Rxd3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ke2","ms":7.1,"capture":false,"check":false}},
+    {"fen":"6k1/3R4/3Np2p/2p2p1P/3b2p1/3P1r2/4K3/8 b - - 3 43","number":43,"side":"black","uci":"f3f2","san":"Rf2+","clocks":{"white":137694,"black":54286},"search":{"iterations":[[1,635,26,0,"Rf2+"],[2,635,53,0,"Rf2+"],[3,635,87,0,"Rf2+"],[4,635,159,0,"Rf2+"],[5,581,333,0,"Rf2+"],[6,635,599,0,"Rf2+"],[7,636,1191,1,"Rf2+"],[8,658,2193,2,"Rf2+"],[9,655,6350,7,"Rf2+"],[10,686,19502,25,"Rf2+"],[11,685,39250,51,"Rf2+"],[12,683,58039,75,"Rf2+"],[13,702,83066,107,"Rf2+"],[14,683,100836,131,"Rf2+"],[15,693,118263,152,"Rf2+"],[16,720,161877,206,"Rf2+"],[17,724,225702,290,"Rf2+"],[18,699,323125,421,"Rf2+"],[19,721,483440,635,"Rf2+"],[20,725,598774,791,"Rf2+"]],"depth":20,"nodes":598774,"score":725,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rf2+","ms":791.8,"capture":false,"check":true}},
+    {"fen":"6k1/3R4/3Np2p/2p2p1P/3b2p1/3P4/4Kr2/8 w - - 4 44","number":44,"side":"white","uci":"e2d1","san":"Kd1","clocks":{"white":137694,"black":53995},"search":{"depth":12,"nodes":8001,"score":-558,"mate":null,"pv":"44. Kd1 g3 45. Ke1 Bc3+ 46. Kd1 g2 47. Rd8+ Kg7","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kd1","ms":6.9,"capture":false,"check":false}},
+    {"fen":"6k1/3R4/3Np2p/2p2p1P/3b2p1/3P4/5r2/3K4 b - - 5 44","number":44,"side":"black","uci":"g4g3","san":"g3","clocks":{"white":138187,"black":53995},"search":{"iterations":[[1,725,25,0,"g3"],[2,725,56,0,"g3"],[3,725,96,0,"g3"],[4,725,145,0,"g3"],[5,725,202,0,"g3"],[6,725,270,0,"g3"],[7,725,364,0,"g3"],[8,725,490,0,"g3"],[9,725,731,0,"g3"],[10,725,1185,0,"g3"],[11,725,1954,1,"g3"],[12,718,3882,3,"g3"],[13,736,19081,20,"g3"],[14,730,24133,25,"g3"],[15,738,41075,42,"g3"],[16,738,54099,57,"g3"],[17,743,69250,73,"g3"],[18,729,144576,171,"g3"],[19,749,211193,248,"g3"],[20,752,365282,451,"g3"],[21,772,601510,750,"g3"],[22,812,1241748,1540,"g3"],[23,804,1732322,2157,"g3"]],"depth":23,"nodes":1732322,"score":804,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"g3","ms":2158.4,"capture":false,"check":false}},
+    {"fen":"6k1/3R4/3Np2p/2p2p1P/3b4/3P2p1/5r2/3K4 w - - 0 45","number":45,"side":"white","uci":"d7d8","san":"Rd8+","clocks":{"white":138187,"black":52336},"search":{"depth":11,"nodes":8009,"score":-590,"mate":null,"pv":"45. Rd8+ Kg7 46. Rd7+ Kf8 47. Rf7+ Kg8 48. Rd7 g2","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Rd8+","ms":5.5,"capture":false,"check":true}},
+    {"fen":"3R2k1/8/3Np2p/2p2p1P/3b4/3P2p1/5r2/3K4 b - - 1 45","number":45,"side":"black","uci":"g8g7","san":"Kg7","clocks":{"white":138682,"black":52336},"search":{"iterations":[[1,804,3,0,"Kg7"],[2,804,14,0,"Kg7"],[3,804,30,0,"Kg7"],[4,804,57,0,"Kg7"],[5,804,90,0,"Kg7"],[6,804,138,0,"Kg7"],[7,804,208,0,"Kg7"],[8,804,301,0,"Kg7"],[9,804,416,0,"Kg7"],[10,804,560,0,"Kg7"],[11,804,780,0,"Kg7"],[12,760,4795,4,"Kg7"],[13,791,6770,5,"Kg7"],[14,791,9806,8,"Kg7"],[15,791,12437,10,"Kg7"],[16,804,21831,19,"Kg7"],[17,804,27111,23,"Kg7"],[18,807,46161,43,"Kg7"],[19,826,83176,82,"Kg7"],[20,828,108587,108,"Kg7"],[21,846,306839,340,"Kg7"],[22,846,465339,541,"Kg7"],[23,846,734077,873,"Kg7"]],"depth":23,"nodes":734077,"score":846,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Kg7","ms":874.0,"capture":false,"check":false}},
+    {"fen":"3R4/6k1/3Np2p/2p2p1P/3b4/3P2p1/5r2/3K4 w - - 2 46","number":46,"side":"white","uci":"d6e8","san":"Ne8+","clocks":{"white":138682,"black":51962},"search":{"depth":13,"nodes":8004,"score":-609,"mate":null,"pv":"46. Ne8+ Kf7 47. Nd6+ Ke7 48. Rg8 Kxd6 49. Rxg3 Ba1","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ne8+","ms":5.6,"capture":false,"check":true}},
+    {"fen":"3RN3/6k1/4p2p/2p2p1P/3b4/3P2p1/5r2/3K4 b - - 3 46","number":46,"side":"black","uci":"g7h7","san":"Kh7","clocks":{"white":139176,"black":51962},"search":{"iterations":[[1,846,6,0,"Kh7"],[2,846,18,0,"Kh7"],[3,846,37,0,"Kh7"],[4,846,63,0,"Kh7"],[5,846,95,0,"Kh7"],[6,846,138,0,"Kh7"],[7,846,189,0,"Kh7"],[8,846,249,0,"Kh7"],[9,846,319,0,"Kh7"],[10,846,601,0,"Kh7"],[11,846,1279,0,"Kh7"],[12,846,3706,2,"Kh7"],[13,847,9541,7,"Kh7"],[14,829,13983,11,"Kh7"],[15,847,18023,15,"Kh7"],[16,868,44425,42,"Kh7"],[17,887,78260,79,"Kh7"],[18,924,161606,176,"Kh7"],[19,957,286653,323,"Kh7"],[20,1027,540291,626,"Kh7"],[21,1058,772199,907,"Kh7"],[22,1093,1092091,1284,"Kh7"],[23,1165,1650096,1948,"Kh7"]],"depth":23,"nodes":1650096,"score":1165,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Kh7","ms":1948.5,"capture":false,"check":false}},
+    {"fen":"3RN3/7k/4p2p/2p2p1P/3b4/3P2p1/5r2/3K4 w - - 4 47","number":47,"side":"white","uci":"d8d4","san":"Rxd4","clocks":{"white":139176,"black":50514},"search":{"depth":14,"nodes":8006,"score":-598,"mate":null,"pv":"47. Rxd4 cxd4 48. Ke1 e5 49. Nc7 Rc2","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Rxd4","ms":4.7,"capture":true,"check":false}},
+    {"fen":"4N3/7k/4p2p/2p2p1P/3R4/3P2p1/5r2/3K4 b - - 0 47","number":47,"side":"black","uci":"c5d4","san":"cxd4","clocks":{"white":139671,"black":50514},"search":{"iterations":[[1,1240,18,0,"cxd4"],[2,1240,40,0,"cxd4"],[3,1240,64,0,"cxd4"],[4,1240,96,0,"cxd4"],[5,1240,130,0,"cxd4"],[6,1240,166,0,"cxd4"],[7,1240,205,0,"cxd4"],[8,1240,248,0,"cxd4"],[9,1240,313,0,"cxd4"],[10,1240,422,0,"cxd4"],[11,1240,571,0,"cxd4"],[12,1240,778,0,"cxd4"],[13,1240,1033,0,"cxd4"],[14,1240,1287,0,"cxd4"],[15,1068,2467,1,"cxd4"],[16,1240,12439,12,"cxd4"],[17,1179,14367,14,"cxd4"],[18,1210,21227,21,"cxd4"],[19,1240,41374,43,"cxd4"],[20,1151,72650,77,"cxd4"],[21,1234,129741,140,"cxd4"],[22,1261,240798,263,"cxd4"],[23,1329,499793,577,"cxd4"],[24,1222,885470,1090,"cxd4"],[25,1437,1258056,1557,"cxd4"]],"depth":25,"nodes":1258056,"score":1437,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"cxd4","ms":1557.6,"capture":true,"check":false}},
+    {"fen":"4N3/7k/4p2p/5p1P/3p4/3P2p1/5r2/3K4 w - - 0 48","number":48,"side":"white","uci":"d1e1","san":"Ke1","clocks":{"white":139671,"black":49456},"search":{"depth":14,"nodes":8004,"score":-601,"mate":null,"pv":"48. Ke1 e5 49. Nc7 Kg7 50. Nd5 e4 51. dxe4 d3","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ke1","ms":4.6,"capture":false,"check":false}},
+    {"fen":"4N3/7k/4p2p/5p1P/3p4/3P2p1/5r2/4K3 b - - 1 48","number":48,"side":"black","uci":"f2a2","san":"Ra2","clocks":{"white":140167,"black":49456},"search":{"iterations":[[1,1437,16,0,"Kg8"],[2,1437,40,0,"Kg8"],[3,1437,66,0,"Kg8"],[4,1437,94,0,"Kg8"],[5,1437,124,0,"Kg8"],[6,1437,156,0,"Kg8"],[7,1437,201,0,"Kg8"],[8,1437,257,0,"Kg8"],[9,1437,329,0,"Kg8"],[10,1437,429,0,"Kg8"],[11,1437,568,0,"Kg8"],[12,1437,754,0,"Kg8"],[13,1437,945,0,"Kg8"],[14,1437,1219,0,"Kg8"],[15,1437,1548,0,"Kg8"],[16,1437,1886,1,"Kg8"],[17,1437,2342,1,"Kg8"],[18,1437,2988,1,"Kg8"],[19,1437,3566,2,"Kg8"],[20,1279,7882,7,"Kg8"],[21,1279,9014,8,"Kg8"],[22,1453,84207,105,"Kg8"],[23,1477,322758,409,"Kg8"],[24,1481,550350,674,"Kg8"],[25,1535,860592,1026,"Kg8"],[26,1304,1258332,1533,"Ra2"],[27,1776,1702945,2152,"Ra2"]],"depth":27,"nodes":2672640,"score":1776,"reason":"search","aborted":true,"partial":false,"actor":"Agent v9","side":"Black","san":"Ra2","ms":3443.8,"capture":false,"check":false}},
+    {"fen":"4N3/7k/4p2p/5p1P/3p4/3P2p1/r7/4K3 w - - 2 49","number":49,"side":"white","uci":"e1f1","san":"Kf1","clocks":{"white":140167,"black":46512},"search":{"depth":13,"nodes":8001,"score":-587,"mate":null,"pv":"49. Kf1 f4 50. Nf6+ Kg7 51. Ne4 Ra7 52. Nc5 Kf6","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kf1","ms":5.2,"capture":false,"check":false}},
+    {"fen":"4N3/7k/4p2p/5p1P/3p4/3P2p1/r7/5K2 b - - 3 49","number":49,"side":"black","uci":"f5f4","san":"f4","clocks":{"white":140661,"black":46512},"search":{"iterations":[[1,29951,20,0,"f4"],[2,29951,66,0,"f4"],[3,29951,124,0,"f4"],[4,29951,181,0,"f4"],[5,29951,272,0,"f4"],[6,29949,363,0,"f4"]],"depth":6,"nodes":363,"score":29949,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"f4","ms":0.7,"capture":false,"check":false}},
+    {"fen":"4N3/7k/4p2p/7P/3p1p2/3P2p1/r7/5K2 w - - 0 50","number":50,"side":"white","uci":"e8f6","san":"Nf6+","clocks":{"white":140661,"black":47012},"search":{"depth":14,"nodes":8002,"score":-565,"mate":null,"pv":"50. Nf6+ Kh8 51. Ne4 e5 52. Nd6 f3 53. Nf7+ Kg7","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Nf6+","ms":4.3,"capture":false,"check":true}},
+    {"fen":"8/7k/4pN1p/7P/3p1p2/3P2p1/r7/5K2 b - - 1 50","number":50,"side":"black","uci":"h7g7","san":"Kg7","clocks":{"white":141157,"black":47012},"search":{"iterations":[[1,29951,3,0,"Kg7"],[2,29951,15,0,"Kg7"],[3,29951,30,0,"Kg7"],[4,29951,46,0,"Kg7"],[5,29951,72,0,"Kg7"],[6,29951,98,0,"Kg7"]],"depth":6,"nodes":98,"score":29951,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Kg7","ms":0.3,"capture":false,"check":false}},
+    {"fen":"8/6k1/4pN1p/7P/3p1p2/3P2p1/r7/5K2 w - - 2 51","number":51,"side":"white","uci":"f6e4","san":"Ne4","clocks":{"white":141157,"black":47511},"search":{"depth":13,"nodes":8002,"score":-607,"mate":null,"pv":"51. Ne4 Kh8 52. Nc5 f3 53. Nb3 Rc2 54. Kg1 Rg2+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ne4","ms":4.1,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3pNp2/3P2p1/r7/5K2 b - - 3 51","number":51,"side":"black","uci":"g3g2","san":"g2+","clocks":{"white":141653,"black":47511},"search":{"iterations":[[1,29953,25,0,"g2+"],[2,29953,51,0,"g2+"],[3,29953,86,0,"g2+"],[4,29953,122,0,"g2+"],[5,29953,161,0,"g2+"],[6,29953,203,0,"g2+"]],"depth":6,"nodes":203,"score":29953,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"g2+","ms":0.5,"capture":false,"check":true}},
+    {"fen":"8/6k1/4p2p/7P/3pNp2/3P4/r5p1/5K2 w - - 0 52","number":52,"side":"white","uci":"f1g1","san":"Kg1","clocks":{"white":141653,"black":48011},"search":{"depth":12,"nodes":8007,"score":-737,"mate":null,"pv":"52. Kg1 f3 53. Ng3 Ra1+ 54. Kf2 g1=Q+ 55. Kxf3 Qd1+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kg1","ms":3.8,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3pNp2/3P4/r5p1/6K1 b - - 1 52","number":52,"side":"black","uci":"f4f3","san":"f3","clocks":{"white":142149,"black":48011},"search":{"iterations":[[1,29955,20,0,"f3"],[2,29955,49,0,"f3"],[3,29955,79,0,"f3"],[4,29955,110,0,"f3"],[5,29955,146,0,"f3"],[6,961,362,0,"f3"],[7,1457,436,0,"f3"],[8,1189,557,0,"f3"],[9,1457,653,0,"f3"],[10,29957,876,0,"f3"]],"depth":10,"nodes":876,"score":29957,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"f3","ms":0.8,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3pN3/3P1p2/r5p1/6K1 w - - 0 53","number":53,"side":"white","uci":"e4g3","san":"Ng3","clocks":{"white":142149,"black":48510},"search":{"depth":12,"nodes":8002,"score":-893,"mate":null,"pv":"53. Ng3 Ra1+ 54. Kf2 g1=Q+ 55. Kxf3 Qd1+ 56. Ke4 Qg4+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Ng3","ms":3.0,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3p4/3P1pN1/r5p1/6K1 b - - 1 53","number":53,"side":"black","uci":"a2a1","san":"Ra1+","clocks":{"white":142646,"black":48510},"search":{"iterations":[[1,720,32,0,"Kf6"],[2,731,107,0,"Ra1+"],[3,1058,170,0,"Ra1+"],[4,1058,224,0,"Ra1+"],[5,1058,272,0,"Ra1+"],[6,1512,388,0,"Ra1+"],[7,1512,501,0,"Ra1+"],[8,29973,1170,1,"Ra1+"]],"depth":8,"nodes":1170,"score":29973,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Ra1+","ms":1.5,"capture":false,"check":true}},
+    {"fen":"8/6k1/4p2p/7P/3p4/3P1pN1/6p1/r5K1 w - - 2 54","number":54,"side":"white","uci":"g1f2","san":"Kf2","clocks":{"white":142646,"black":49008},"search":{"depth":12,"nodes":8011,"score":-890,"mate":null,"pv":"54. Kf2 g1=Q+ 55. Kxf3 Qd1+ 56. Ke4 Qg4+ 57. Ke5 Qxg3+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kf2","ms":2.7,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3p4/3P1pN1/5Kp1/r7 b - - 3 54","number":54,"side":"black","uci":"g2g1q","san":"g1=Q+","clocks":{"white":143144,"black":49008},"search":{"iterations":[[1,29987,27,0,"g1=Q+"],[2,29987,102,0,"g1=Q+"],[3,29987,193,0,"g1=Q+"],[4,29993,302,0,"g1=Q+"],[5,29993,494,0,"g1=Q+"],[6,29993,709,0,"g1=Q+"]],"depth":6,"nodes":709,"score":29993,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"g1=Q+","ms":1.2,"capture":false,"check":true}},
+    {"fen":"8/6k1/4p2p/7P/3p4/3P1pN1/5K2/r5q1 w - - 0 55","number":55,"side":"white","uci":"f2f3","san":"Kxf3","clocks":{"white":143144,"black":49507},"search":{"depth":13,"nodes":8005,"score":-934,"mate":null,"pv":"55. Kxf3 Qd1+ 56. Kf4 Qxd3 57. Ke5 Qxg3+ 58. Kxd4 Rd1+","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kxf3","ms":2.6,"capture":true,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3p4/3P1KN1/8/r5q1 b - - 0 55","number":55,"side":"black","uci":"g1e3","san":"Qe3+","clocks":{"white":143641,"black":49507},"search":{"iterations":[[1,29995,38,0,"Qe3+"],[2,29995,94,0,"Qe3+"],[3,29995,142,0,"Qe3+"],[4,29995,199,0,"Qe3+"],[5,29995,283,0,"Qe3+"],[6,29995,378,0,"Qe3+"]],"depth":6,"nodes":378,"score":29995,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qe3+","ms":0.5,"capture":false,"check":true}},
+    {"fen":"8/6k1/4p2p/7P/3p4/3PqKN1/8/r7 w - - 1 56","number":56,"side":"white","uci":"f3g4","san":"Kg4","clocks":{"white":143641,"black":50007},"search":{"depth":136,"nodes":7954,"score":null,"mate":-2,"pv":"56. Kg4 Rg1 57. Kh3 Qxg3#","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kg4","ms":4.4,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3p2K1/3Pq1N1/8/r7 b - - 2 56","number":56,"side":"black","uci":"a1g1","san":"Rg1","clocks":{"white":144137,"black":50007},"search":{"iterations":[[1,29997,40,0,"Rg1"],[2,29997,119,0,"Rg1"],[3,29997,167,0,"Rg1"],[4,29997,214,0,"Rg1"],[5,29997,271,0,"Rg1"],[6,29997,330,0,"Rg1"]],"depth":6,"nodes":330,"score":29997,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Rg1","ms":0.5,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3p2K1/3Pq1N1/8/6r1 w - - 3 57","number":57,"side":"white","uci":"g4h4","san":"Kh4","clocks":{"white":144137,"black":50506},"search":{"depth":245,"nodes":844,"score":null,"mate":-1,"pv":"57. Kh4 Qxg3#","iterations":[],"reason":"search","aborted":false,"partial":false,"actor":"Stockfish","side":"White","san":"Kh4","ms":4.2,"capture":false,"check":false}},
+    {"fen":"8/6k1/4p2p/7P/3p3K/3Pq1N1/8/6r1 b - - 4 57","number":57,"side":"black","uci":"e3g3","san":"Qxg3#","clocks":{"white":144632,"black":50506},"search":{"iterations":[[1,29999,29,0,"Qxg3#"],[2,29999,58,0,"Qxg3#"],[3,29999,87,0,"Qxg3#"],[4,29999,116,0,"Qxg3#"],[5,29999,145,0,"Qxg3#"],[6,29999,174,0,"Qxg3#"]],"depth":6,"nodes":174,"score":29999,"reason":"search","aborted":false,"partial":false,"actor":"Agent v9","side":"Black","san":"Qxg3#","ms":0.4,"capture":true,"check":true}}
+  ]
+}

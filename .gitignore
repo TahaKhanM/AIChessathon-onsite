@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ruff_cache/
+.DS_Store
+/nnue_weights.npz
+/assets/*.npz
+!/assets/nnue_weights.npz
+/assets/*.zip
+/assets/swiss-v8-validation.log
